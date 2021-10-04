@@ -6,8 +6,8 @@ public abstract class AbstractCharacter {
   final int attackPoint;
 
   AbstractCharacter(int attackPoint) {
-	  this.attackPoint = attackPoint;
+    this.attackPoint = attackPoint;
   }
 
-  abstract int recieveDamage(int attackPoint);
+  abstract int receiveDamage(int attackPoint);
 }

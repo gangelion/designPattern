@@ -4,14 +4,14 @@ public class Swordsman extends AbstractCharacter {
 
   Swordsman() {
     super(50);
-	this.hp = super.hp;
+    this.hp = super.hp;
   }
 
   public int attackPoint = 50;
 
   @Override
-  public int recieveDamage(int attackPoint) {
+  public int receiveDamage(int attackPoint) {
     this.hp -= attackPoint;
-	return this.hp;
-  };
+    return attackPoint;
+  }
 }

@@ -4,12 +4,12 @@ public class Monster extends AbstractCharacter {
 
   Monster() {
     super(10);
-	this.hp = super.hp;
+    this.hp = super.hp;
   }
 
   @Override
-  public int recieveDamage(int attackPoint) {
+  public int receiveDamage(int attackPoint) {
     this.hp -= attackPoint;
-    return this.hp;
+    return attackPoint;
   }
 }
