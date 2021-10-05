@@ -9,5 +9,5 @@ public abstract class AbstractCharacter {
     this.attackPoint = attackPoint;
   }
 
-  abstract int receiveDamage(int attackPoint);
+  public abstract int receiveDamage(int attackPoint);
 }
