@@ -2,14 +2,15 @@ package battle_game;
 
 public class Main {
   public static void main(String[] args) {
-    SwordsmanCreator factory = new SwordsmanCreator();
-    AbstractPlayer swordsman = factory.create();
-    AbstractPlayer monster = new Monster();
+    SwordsmanCreator swordsmanFactory = new SwordsmanCreator();
+    AbstractPlayer swordsman = swordsmanFactory.create();
+    DevilKingCreator devilKingFactory = new DevilKingCreator();
+    AbstractEnemy devilKing = devilKingFactory.create();
 
-    swordsman.receiveDamage(monster.attackPoint);
+    swordsman.receiveDamage(devilKing.attackPoint);
     System.out.println(swordsman.hp);
 
-    monster.receiveDamage(swordsman.attackPoint);
-    System.out.println(monster.hp);
+    devilKing.receiveDamage(swordsman.attackPoint);
+    System.out.println(devilKing.hp);
   }
 }

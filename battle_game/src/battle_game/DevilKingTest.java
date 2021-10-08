@@ -4,9 +4,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class MonsterTest {
+class DevilKingTest {
 
-  private final AbstractPlayer monster = new Monster();
+  private final AbstractEnemy monster = new DevilKing();
   private final AbstractPlayer swordsman = new Swordsman();
 
   @Test

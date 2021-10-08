@@ -1,8 +1,8 @@
 package battle_game;
 
-public class Monster extends AbstractPlayer {
+public class DevilKing extends AbstractEnemy {
 
-  Monster() {
+  DevilKing() {
     super(10);
     this.hp = super.hp;
   }
