@@ -1,14 +1,10 @@
 package battle_game;
 
-public class SwordsmanCreator extends AbstractSwordsmanCreator {
+public class SwordsmanCreator extends AbstractPlayerCreator {
 
   @Override
-  protected Swordsman createSwordsman() {
-	return new Swordsman();
+  protected Swordsman createPlayer() {
+    return new Swordsman();
   }
 
-  @Override
-  protected void registerSwordsman(Swordsman swordsman) {
-
-  }
 }

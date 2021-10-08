@@ -1,11 +1,11 @@
 package battle_game;
 
-public abstract class AbstractCharacter {
+public abstract class AbstractPlayer {
 
   public int hp = 100;
   final int attackPoint;
 
-  AbstractCharacter(int attackPoint) {
+  AbstractPlayer(int attackPoint) {
     this.attackPoint = attackPoint;
   }
 

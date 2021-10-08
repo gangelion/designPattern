@@ -1,6 +1,6 @@
 package battle_game;
 
-public class Swordsman extends AbstractCharacter {
+public class Swordsman extends AbstractPlayer {
 
   Swordsman() {
     super(50);

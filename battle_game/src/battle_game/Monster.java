@@ -1,6 +1,6 @@
 package battle_game;
 
-public class Monster extends AbstractCharacter {
+public class Monster extends AbstractPlayer {
 
   Monster() {
     super(10);
